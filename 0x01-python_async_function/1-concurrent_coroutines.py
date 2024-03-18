@@ -22,6 +22,14 @@ async def wait_n(n: int, max_delay: int) -> List[float]:
     Returns:
         List[float]: List of delays in ascending order.
     """
+    # If n is less than or equal to 0, return an empty list
+    if n <= 0:
+        return []
+
+    # If max_delay is less than 0, return an empty list
+    if max_delay < 0:
+        return []
+
     # List to store delays
     delays = []
 
