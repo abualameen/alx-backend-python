@@ -6,7 +6,7 @@ Async Generator module
 
 
 import asyncio
-import random
+import typing import List
 
 
 # Import the async_generator
