@@ -30,7 +30,3 @@ async def measure_runtime() -> float:
     total_runtime = time() - start_time
 
     return total_runtime
-
-if __name__ == "__main__":
-    # Run the main coroutine and print the total runtime
-    print(asyncio.run(measure_runtime()))
