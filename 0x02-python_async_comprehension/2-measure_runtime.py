@@ -1,3 +1,8 @@
+"""
+this module implements async comprehension
+
+"""
+
 import asyncio
 from typing import List
 from time import time
